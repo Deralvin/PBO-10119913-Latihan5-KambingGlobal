@@ -6,11 +6,12 @@
 package latihan5kambingglobal;
 
 /**
- *
- * @author Muhammad Alvin Rizqi Ramadhan
+  * @author Muhammad Alvin Rizqi Ramadhan
  * @author NIM 10119913
+ * Kelas : IF10K
+ * Deskripsi Program : Program Class Kambing Static
  */
-public class KambingGlobal {
+public class PBO1010119913KambingGlobal {
     //Variable Jumlah Kambing menjadi variable instance
     int jumlahKambing = 88;
     
@@ -29,7 +30,7 @@ public class KambingGlobal {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        KambingGlobal kambingSusu = new KambingGlobal();
+        PBO1010119913KambingGlobal kambingSusu = new PBO1010119913KambingGlobal();
    
         //menampilkan jumlah kambing yang ada saat program pertama kali berjalan
         kambingSusu.getJumlahKambing();
